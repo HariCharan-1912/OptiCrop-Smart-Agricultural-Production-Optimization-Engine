@@ -8,7 +8,7 @@
 
 OptiCrop is an intelligent, self-contained agricultural optimization engine designed to bridge the gap between environmental telemetry data and precise data-driven farming decisions. By training a high-accuracy machine learning classifier core over multi-variable parameter vectors, the platform provides real-time crop recommendations, target suitability audits, and strategic resource management roadmaps for farmers, research teams, and policymakers alike.
 
-## 🚀 System Architecture & Key Features
+# System Architecture & Key Features
 
 OptiCrop runs a clean, multi-tier execution lifecycle that decouples client-side presentation layers from core backend predictive services:
 
@@ -17,33 +17,33 @@ OptiCrop runs a clean, multi-tier execution lifecycle that decouples client-side
 *   **Scenario 3: Macro Policy & Strategy Planner:** Renders structural agro-ecological zoning limits and strategic resource management guidelines tailored for regional stakeholders.
 *   **Built-in Boundary Sanitizer:** Integrates strict server-side numeric checks validating float values to safely protect the machine learning backend from out-of-range exceptions.
 
-## 📁 Directory Structure
+# Directory Structure
 
 ```text
 OptiCrop/
 │
 ├── static/
-│   └── style.css            # Custom layout themes and UI tab styling definitions
+│   └── style.css           
 │
 ├── templates/
-│   ├── index.html           # Multi-Scenario tabbed form controls web dashboard
-│   └── result.html          # Dynamic crop diagnostics and result summary panel
+│   ├── index.html          
+│   └── result.html         
 │
-├── app.py                   # Core Flask web server, boundary validation & context router
-├── train_model.py           # Multi-model evaluation script (fully optimized for Windows consoles)
-├── model.pkl                # Serialized high-accuracy Random Forest classifier binary
-└── requirements.txt         # Verified Python environment package dependencies mapping
+├── app.py                  
+├── train_model.py          
+├── model.pkl               
+└── requirements.txt        
 
 ```
 
-## 🛠️ Tech Stack & Dependencies
+## Tech Stack & Dependencies
 
 * **Frontend Design Core:** HTML5, CSS3, JavaScript, Bootstrap v5 (CDN Layout)
 * **Application Gateway Routing Engine:** Python 3.10+ / Flask Micro-framework
 * **Data Science & Inference Tools:** Scikit-Learn, Pandas, NumPy
 * **Model Storage Persistence Layer:** Serialized Python Pickle Stream (`model.pkl`)
 
-## 💻 Local Workspace Run Instructions
+## Local Workspace Run Instructions
 
 ### 1. Pre-requisites
 
@@ -91,7 +91,7 @@ Open any modern web browser interface window and navigate to the loopback local 
 
 ```
 
-## 📊 Evaluation & Verification Results
+## Evaluation & Verification Results
 
 During training evaluation sweeps, the comparative pipeline scores historical target patterns cleanly, yielding competitive accuracies across configurations:
 
@@ -102,7 +102,7 @@ During training evaluation sweeps, the comparative pipeline scores historical ta
 
 By processing data vectors locally via native NumPy structures rather than setting up heavy external cloud network lookups, the execution engine delivers rapid response turnarounds with an average system inference speed under **400 milliseconds**.
 
-## 🔮 Scalability Future Roadmap
+## Scalability Future Roadmap
 
 * **IoT Field Device Integrations:** Construct direct REST API hooks to receive live, automated macro telemetry feeds from physical NPK field hardware sensors.
 * **Automated Climate Broadcast Sync:** Connect input variables directly to live environmental forecasts via automated OpenWeatherMap engine API pipelines.
